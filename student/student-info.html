@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS and JS -->
+    <link rel="stylesheet" href="../styles/general.css">
+    
+    <link rel="stylesheet" href="styles/student-info.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="app.js"
+    defer></script>
+    <script type="text/javascript" src="charts.js"
+    defer></script>
+
+    <script>
+      (function (m, a, z, e) {
+        var s, t;
+        try {
+          t = m.sessionStorage.getItem('maze-us');
+        } catch (err) {}
+      
+        if (!t) {
+          t = new Date().getTime();
+          try {
+            m.sessionStorage.setItem('maze-us', t);
+          } catch (err) {}
+        }
+      
+        s = a.createElement('script');
+        s.src = z + '?apiKey=' + e;
+        s.async = true;
+        a.getElementsByTagName('head')[0].appendChild(s);
+        m.mazeUniversalSnippetApiKey = e;
+      })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', '65f6bda7-e9d3-465b-a89d-f3b2567e4c16');
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="main-contents bg-white border-lightgray txt-13">
+        <h1 class="txt-24 txt-semibold txt-gray1">Greetings, STUDENT!</h1>
+        <p class="txt-15 txt-regular txt-gray2" style="
+        margin-top: 10px;
+        line-height: 150%;
+        ">Take a look at how far you’ve progressed in your degree program.</p>
+
+        <div class="progress-container">
+          <div class="progress-info">
+            <span class="legend-item">
+              <span class="txt-19 txt-semibold txt-gray2">Degree Progress Overview</span>
+              
+            </span>
+          </div>
+        
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+            <div class="progress-ongoing"></div>
+            <div class="progress-remaining"></div>
+          </div>
+        
+          <div class="legend">
+            <span class="legend-item txt-13 txt-gray2 txt-semibold" style="margin-right: auto;">
+              <span class="dot completed"></span>
+              <span id="units-completed"></span>
+            </span>
+            <span class="legend-item txt-13 txt-gray2 txt-semibold">
+                <span class="dot ongoing"></span> 
+                <span id="units-in-progress"></span>
+            </span>
+            <span class="legend-item txt-13 txt-gray2 txt-semibold">
+                <span class="dot remaining"></span> 
+                <span id="units-not-started"></span>
+            </span>
+          </div>
+        </div>
+        
+        <div class="descriptive-info">
+          <div style="width: 770.99px;">
+            <div class="scorecards">
+              <div class="scorecard" style="width: 205.83px;">
+                <span class="icon blue">★</span>
+                <div class="text">
+                  <p class="txt-gray2">Cumulative GPA</p>
+                  <p id="cumulative-gpa" class="txt-15 txt-bold"></p>
+                </div>
+              </div>
+
+              <div class="scorecard" style="width: 244.28px;">
+                <span class="icon blue">★</span>
+                <div class="text">
+                  <p class="txt-gray2">Classification</p>
+                  <p id="classification" class="txt-15 txt-bold"></p>
+                  <span class="tooltip-content">
+                    <div class="pointer-outline">.</div>
+                    <div class="pointer">.</div>
+                    <p style="margin-top: 8px;">Classification of students based on the percentage of completed courses as per the <strong>Revised UP Code, Article 338</strong>.</p>
+                    <p style="padding-left: 12px;"><strong>Freshman</strong> –  Less than 25% completed</p>
+                    <p style="padding-left: 12px;"><strong>Sophomore</strong> –  25% to less than 50% completed
+                    </p>
+                    <p style="padding-left: 12px;"><strong>Junior</strong> – 50% to less than 75% completed</p>
+                    <p style="padding-left: 12px;"><strong>Senior</strong> – Greater than 75% completed</p>
+                    <div style="display: flex;justify-content: end;"><a href="https://our.upd.edu.ph/files/acadinfo/CLASSIFICATION%20OF%20STUDENTS.pdf" target=“_blank” class="tooltip-button bg-blue txt-white button txt-11">Read More ></a></div>
+                  </span>
+                </div>
+              </div>
+
+              <div class="scorecard" style="width: 201.44px;">
+                <span class="icon blue">★</span>
+                <div class="text">
+                  <p class="txt-gray2">Residency</p>
+                  <p id="residency" class="txt-15 txt-bold"></p>
+                </div>
+              </div>
+
+              <div class="scorecard" style="width: 205.83px;">
+                <span class="icon purple">🎓</span>
+                <div class="text">
+                  <p class="txt-gray2">Progress Status by Units</p>
+                  <p id="progressByUnits" class="txt-15 txt-bold"></p>
+                  <span class="tooltip-content">
+                    <div class="pointer-outline">.</div>
+                    <div class="pointer">.</div>
+                    <p style="margin-top: 8px;">Indicates if a student is <strong>“On Time”</strong> or <strong>“Behind”</strong> based on the number of completed units compared to the expected pace of their curriculum.</p>
+                  </span>
+                </div>
+              </div>
+            
+              <div class="scorecard" style="width: 244.28px;">
+                <span class="icon purple">🎓</span>
+                <div class="text">
+                  <p class="txt-gray2">Progress Status by Critical Path</p>
+                  <p id="progressByCP" class="txt-15 txt-bold"></p>
+                  <span class="tooltip-content">
+                    <div class="pointer-outline">.</div>
+                    <div class="pointer">.</div>
+                    <p style="margin-top: 8px;">Indicates whether students are following the prescribed order of critical courses.</p>
+                    <p style="padding-left: 12px;"><strong>"On Time"</strong> if critical courses are taken in its designated semester.</p>
+                    <p style="padding-left: 12px;"><strong>"Behind"</strong> if a critical course is delayed beyond the recommended semester.</p>
+                  </span>
+                </div>
+              </div>
+
+              <div class="scorecard" style="width: 201.44px;">
+                <span class="icon purple">🎓</span>
+                <div class="text">
+                  <p class="txt-gray2">Projected Graduation</p>
+                  <p id="projGrad" class="txt-15 txt-bold"></p>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 10px;">
+              <div class="txt-bold txt-14 txt-maroon" style="margin-bottom: 15px; margin-left: 9px;">Semestral GPA Trend</div>
+              <div id="chart1_div" style="height:218px"></div>
+            </div>
+          </div>
+          
+          
+          <div>
+            <div style="display:flex;">
+              <div class="txt-bold txt-13" id="termLabel"></div>
+              <div id="schoStanding" class="green txt-semibold pad-5 border-round12"></div>
+            </div>
+            
+            <div style="margin-top: 8px; border: 1px solid #ddd; height: 355px;">
+              <table class="remarks-table">
+                <thead>
+                    <tr>
+                        <th>Courses</th>
+                        <th>Grades</th>
+                        <th>Remarks</th>
+                    </tr>
+                </thead>
+                <tbody id="gradeRemarks">
+                    <!-- GPA results will be inserted here -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

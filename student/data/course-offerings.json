@@ -1,0 +1,1103 @@
+[
+  {
+    "code": "IE 21",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 09:30 AM - 11:00 AM"},
+      {"label": "CD", "sched": "WF | 12:30 PM - 02:00 PM"},
+      {"label": "EF", "sched": "WF | 12:30 PM - 02:00 PM"},
+      {"label": "ST", "sched": "TTh | 03:30 PM - 05:00 PM"},
+      {"label": "UV", "sched": "TTh | 10:30 AM - 12:00 PM"},
+      {"label": "WX", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "YZ", "sched": "WF | 05:00 PM - 06:30 PM"}
+    ]
+  },
+  {
+    "code": "IE 31",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "CD", "sched": "WF | 05:30 PM - 07:00 PM"},
+      {"label": "EF", "sched": "WF | 03:00 PM - 04:30 PM"},
+      {"label": "ST", "sched": "WF | 04:00 PM - 05:30 PM"},
+      {"label": "UV", "sched": "WF | 01:30 PM - 03:00 PM"},
+      {"label": "WX", "sched": "WF | 07:00 AM - 08:30 AM"},
+      {"label": "YZ", "sched": "TTh | 05:30 PM - 07:00 PM"}
+    ]
+  },
+  {
+    "code": "IE 136",
+    "sections": [
+      {"label": "AB", "sched": "WF | 02:30 PM - 04:00 PM"},
+      {"label": "CD", "sched": "WF | 04:00 PM - 05:30 PM"},
+      {"label": "EF", "sched": "TTh | 07:00 AM - 08:30 AM"},
+      {"label": "ST", "sched": "WF | 07:30 AM - 09:00 AM"},
+      {"label": "UV", "sched": "TTh | 08:00 AM - 09:30 AM"},
+      {"label": "WX", "sched": "WF | 11:00 AM - 12:30 PM"},
+      {"label": "YZ", "sched": "TTh | 04:30 PM - 06:00 PM"}
+    ]
+  },
+  {
+    "code": "IE 141",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "CD", "sched": "WF | 11:30 AM - 01:00 PM"},
+      {"label": "EF", "sched": "WF | 08:30 AM - 10:00 AM"},
+      {"label": "ST", "sched": "WF | 11:00 AM - 12:30 PM"},
+      {"label": "UV", "sched": "WF | 12:30 PM - 02:00 PM"},
+      {"label": "WX", "sched": "TTh | 03:00 PM - 04:30 PM"},
+      {"label": "YZ", "sched": "TTh | 03:30 PM - 05:00 PM"}
+    ]
+  },
+  {
+    "code": "IE 142",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "CD", "sched": "WF | 09:30 AM - 11:00 AM"},
+      {"label": "EF", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "ST", "sched": "WF | 03:00 PM - 04:30 PM"},
+      {"label": "UV", "sched": "WF | 09:00 AM - 10:30 AM"},
+      {"label": "WX", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "YZ", "sched": "WF | 05:00 PM - 06:30 PM"}
+    ]
+  },
+  {
+    "code": "IE 143",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "CD", "sched": "WF | 08:00 AM - 09:30 AM"},
+      {"label": "EF", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "ST", "sched": "TTh | 11:30 AM - 01:00 PM"},
+      {"label": "UV", "sched": "WF | 08:00 AM - 09:30 AM"},
+      {"label": "WX", "sched": "WF | 05:30 PM - 07:00 PM"},
+      {"label": "YZ", "sched": "TTh | 07:00 AM - 08:30 AM"}
+    ]
+  },
+  {
+    "code": "IE 150",
+    "sections": [
+      {"label": "AB", "sched": "WF | 08:30 AM - 10:00 AM"},
+      {"label": "CD", "sched": "TTh | 12:30 PM - 02:00 PM"},
+      {"label": "EF", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "ST", "sched": "WF | 01:30 PM - 03:00 PM"},
+      {"label": "UV", "sched": "WF | 04:00 PM - 05:30 PM"},
+      {"label": "WX", "sched": "WF | 12:30 PM - 02:00 PM"},
+      {"label": "YZ", "sched": "WF | 05:00 PM - 06:30 PM"}
+    ]
+  },
+  {
+    "code": "IE 158",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 12:30 PM - 02:00 PM"},
+      {"label": "CD", "sched": "WF | 08:00 AM - 09:30 AM"},
+      {"label": "EF", "sched": "WF | 01:00 PM - 02:30 PM"},
+      {"label": "ST", "sched": "WF | 11:00 AM - 12:30 PM"},
+      {"label": "UV", "sched": "TTh | 11:30 AM - 01:00 PM"},
+      {"label": "WX", "sched": "TTh | 03:30 PM - 05:00 PM"},
+      {"label": "YZ", "sched": "WF | 03:00 PM - 04:30 PM"}
+    ]
+  },
+  {
+    "code": "IE 164",
+    "sections": [
+      {"label": "AB", "sched": "WF | 05:00 PM - 06:30 PM"},
+      {"label": "CD", "sched": "TTh | 08:00 AM - 09:30 AM"},
+      {"label": "EF", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "ST", "sched": "TTh | 12:00 PM - 01:30 PM"},
+      {"label": "UV", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "WX", "sched": "WF | 01:30 PM - 03:00 PM"},
+      {"label": "YZ", "sched": "TTh | 01:00 PM - 02:30 PM"}
+    ]
+  },
+  {
+    "code": "IE 165",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 11:00 AM - 12:30 PM"},
+      {"label": "CD", "sched": "WF | 01:30 PM - 03:00 PM"},
+      {"label": "EF", "sched": "TTh | 12:30 PM - 02:00 PM"},
+      {"label": "ST", "sched": "TTh | 05:30 PM - 07:00 PM"},
+      {"label": "UV", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "WX", "sched": "WF | 03:30 PM - 05:00 PM"},
+      {"label": "YZ", "sched": "TTh | 01:00 PM - 02:30 PM"}
+    ]
+  },
+  {
+    "code": "IE 90",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "CD", "sched": "WF | 09:00 AM - 10:30 AM"},
+      {"label": "EF", "sched": "TTh | 12:30 PM - 02:00 PM"},
+      {"label": "ST", "sched": "WF | 04:00 PM - 05:30 PM"},
+      {"label": "UV", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "WX", "sched": "WF | 05:00 PM - 06:30 PM"},
+      {"label": "YZ", "sched": "TTh | 08:30 AM - 10:00 AM"}
+    ]
+  },
+  {
+    "code": "IE 199",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 02:30 PM - 04:00 PM"},
+      {"label": "CD", "sched": "TTh | 07:30 AM - 09:00 AM"},
+      {"label": "EF", "sched": "WF | 09:00 AM - 10:30 AM"},
+      {"label": "ST", "sched": "TTh | 12:00 PM - 01:30 PM"},
+      {"label": "UV", "sched": "TTh | 11:00 AM - 12:30 PM"},
+      {"label": "WX", "sched": "TTh | 11:00 AM - 12:30 PM"},
+      {"label": "YZ", "sched": "WF | 09:00 AM - 10:30 AM"}
+    ]
+  },
+  {
+    "code": "IE 10",
+    "sections": [
+      {"label": "AB", "sched": "WF | 11:00 AM - 12:30 PM"},
+      {"label": "CD", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "EF", "sched": "TTh | 10:30 AM - 12:00 PM"},
+      {"label": "ST", "sched": "WF | 08:00 AM - 09:30 AM"},
+      {"label": "UV", "sched": "TTh | 11:00 AM - 12:30 PM"},
+      {"label": "WX", "sched": "TTh | 12:30 PM - 02:00 PM"},
+      {"label": "YZ", "sched": "TTh | 11:00 AM - 12:30 PM"}
+    ]
+  },
+  {
+    "code": "MATH 27",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 10:00 AM - 11:30 AM"},
+      {"label": "CD", "sched": "TTh | 03:00 PM - 04:30 PM"},
+      {"label": "EF", "sched": "TTh | 09:00 AM - 10:30 AM"},
+      {"label": "ST", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "UV", "sched": "WF | 05:00 PM - 06:30 PM"},
+      {"label": "WX", "sched": "WF | 04:30 PM - 06:00 PM"},
+      {"label": "YZ", "sched": "TTh | 11:00 AM - 12:30 PM"}
+    ]
+  },
+  {
+    "code": "MATH 28",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 01:00 PM - 02:30 PM"},
+      {"label": "CD", "sched": "TTh | 10:00 AM - 11:30 AM"},
+      {"label": "EF", "sched": "WF | 01:00 PM - 02:30 PM"},
+      {"label": "ST", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "UV", "sched": "TTh | 03:00 PM - 04:30 PM"},
+      {"label": "WX", "sched": "TTh | 10:30 AM - 12:00 PM"},
+      {"label": "YZ", "sched": "TTh | 01:00 PM - 02:30 PM"}
+    ]
+  },
+  {
+    "code": "CHEM 18",
+    "sections": [
+      {"label": "AB", "sched": "WF | 10:30 AM - 12:00 PM"},
+      {"label": "CD", "sched": "TTh | 09:30 AM - 11:00 AM"},
+      {"label": "EF", "sched": "WF | 01:30 PM - 03:00 PM"},
+      {"label": "ST", "sched": "WF | 07:30 AM - 09:00 AM"},
+      {"label": "UV", "sched": "WF | 12:30 PM - 02:00 PM"},
+      {"label": "WX", "sched": "WF | 02:00 PM - 03:30 PM"},
+      {"label": "YZ", "sched": "WF | 04:30 PM - 06:00 PM"}
+    ]
+  },
+  {
+    "code": "CHEM 18.1",
+    "sections": [
+      {"label": "AB", "sched": "Th | 02:30 PM - 05:30 PM"},
+      {"label": "CD", "sched": "T | 02:00 PM - 05:00 PM"},
+      {"label": "EF", "sched": "W | 10:00 AM - 01:00 PM"},
+      {"label": "ST", "sched": "T | 08:30 AM - 11:30 AM"},
+      {"label": "UV", "sched": "M | 08:00 AM - 11:00 AM"},
+      {"label": "WX", "sched": "T | 04:00 PM - 07:00 PM"},
+      {"label": "YZ", "sched": "Th | 10:30 AM - 01:30 PM"}
+    ]
+  },
+  {
+    "code": "PHYS 51",
+    "sections": [
+      {"label": "AB", "sched": "TWThF | 03:30 PM - 04:30 PM"},
+      {"label": "CD", "sched": "TWThF | 08:00 AM - 09:00 AM"},
+      {"label": "EF", "sched": "TWThF | 04:00 PM - 05:00 PM"},
+      {"label": "ST", "sched": "TWThF | 10:00 AM - 11:00 AM"},
+      {"label": "UV", "sched": "TWThF | 01:30 PM - 02:30 PM"},
+      {"label": "WX", "sched": "TWThF | 07:30 AM - 08:30 AM"},
+      {"label": "YZ", "sched": "TWThF | 12:00 PM - 01:00 PM"}
+    ]
+  },
+  {
+    "code": "PHYS 51.1",
+    "sections": [
+      {"label": "AB", "sched": "M | 10:00 AM - 01:00 PM"},
+      {"label": "CD", "sched": "T | 03:30 PM - 06:30 PM"},
+      {"label": "EF", "sched": "Th | 11:30 AM - 02:30 PM"},
+      {"label": "ST", "sched": "Th | 10:00 AM - 01:00 PM"},
+      {"label": "UV", "sched": "Th | 02:00 PM - 05:00 PM"},
+      {"label": "WX", "sched": "W | 02:30 PM - 05:30 PM"},
+      {"label": "YZ", "sched": "M | 12:00 PM - 03:00 PM"}
+    ]
+  },
+  {
+    "code": "ENSC 10.1",
+    "sections": [
+      {"label": "AB", "sched": "M | 11:30 AM - 02:30 PM"},
+      {"label": "CD", "sched": "M | 02:30 PM - 05:30 PM"},
+      {"label": "EF", "sched": "T | 07:30 AM - 10:30 AM"},
+      {"label": "ST", "sched": "Th | 08:00 AM - 11:00 AM"},
+      {"label": "UV", "sched": "Th | 01:30 PM - 04:30 PM"},
+      {"label": "WX", "sched": "T | 11:00 AM - 02:00 PM"},
+      {"label": "YZ", "sched": "M | 01:30 PM - 04:30 PM"}
+    ]
+  },
+  {
+    "code": "ENSC 11",
+    "sections": [
+      {"label": "AB", "sched": "WF | 07:00 AM - 08:30 AM"},
+      {"label": "CD", "sched": "WF | 11:00 AM - 12:30 PM"},
+      {"label": "EF", "sched": "TTh | 05:30 PM - 07:00 PM"},
+      {"label": "ST", "sched": "WF | 04:00 PM - 05:30 PM"},
+      {"label": "UV", "sched": "TTh | 03:30 PM - 05:00 PM"},
+      {"label": "WX", "sched": "WF | 03:30 PM - 05:00 PM"},
+      {"label": "YZ", "sched": "WF | 02:30 PM - 04:00 PM"}
+    ]
+  },
+  {
+    "code": "ENSC 12",
+    "sections": [
+      {"label": "AB", "sched": "WF | 12:00 PM - 01:30 PM"},
+      {"label": "CD", "sched": "TTh | 08:00 AM - 09:30 AM"},
+      {"label": "EF", "sched": "TTh | 01:00 PM - 02:30 PM"},
+      {"label": "ST", "sched": "TTh | 05:00 PM - 06:30 PM"},
+      {"label": "UV", "sched": "WF | 10:30 AM - 12:00 PM"},
+      {"label": "WX", "sched": "TTh | 07:00 AM - 08:30 AM"},
+      {"label": "YZ", "sched": "WF | 02:30 PM - 04:00 PM"}
+    ]
+  },
+  {
+    "code": "ENSC 13",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "CD", "sched": "TTh | 07:30 AM - 09:00 AM"},
+      {"label": "EF", "sched": "TTh | 01:00 PM - 02:30 PM"},
+      {"label": "ST", "sched": "TTh | 09:30 AM - 11:00 AM"},
+      {"label": "UV", "sched": "WF | 05:30 PM - 07:00 PM"},
+      {"label": "WX", "sched": "WF | 04:00 PM - 05:30 PM"},
+      {"label": "YZ", "sched": "TTh | 04:30 PM - 06:00 PM"}
+    ]
+  },
+  {
+    "code": "ENSC 16",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "CD", "sched": "WF | 10:00 AM - 11:30 AM"},
+      {"label": "EF", "sched": "TTh | 09:30 AM - 11:00 AM"},
+      {"label": "ST", "sched": "TTh | 05:30 PM - 07:00 PM"},
+      {"label": "UV", "sched": "TTh | 11:30 AM - 01:00 PM"},
+      {"label": "WX", "sched": "WF | 12:00 PM - 01:30 PM"},
+      {"label": "YZ", "sched": "TTh | 05:00 PM - 06:30 PM"}
+    ]
+  },
+  {
+    "code": "ENSC 21",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 08:00 AM - 09:30 AM"},
+      {"label": "CD", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "EF", "sched": "WF | 09:00 AM - 10:30 AM"},
+      {"label": "ST", "sched": "WF | 11:30 AM - 01:00 PM"},
+      {"label": "UV", "sched": "WF | 07:00 AM - 08:30 AM"},
+      {"label": "WX", "sched": "WF | 08:30 AM - 10:00 AM"},
+      {"label": "YZ", "sched": "TTh | 09:00 AM - 10:30 AM"}
+    ]
+  },
+  {
+    "code": "MGT 111",
+    "sections": [
+      {"label": "AB", "sched": "WF | 02:00 PM - 03:30 PM"},
+      {"label": "CD", "sched": "TTh | 01:00 PM - 02:30 PM"},
+      {"label": "EF", "sched": "WF | 11:30 AM - 01:00 PM"},
+      {"label": "ST", "sched": "WF | 01:30 PM - 03:00 PM"},
+      {"label": "UV", "sched": "WF | 10:30 AM - 12:00 PM"},
+      {"label": "WX", "sched": "TTh | 08:00 AM - 09:30 AM"},
+      {"label": "YZ", "sched": "TTh | 01:00 PM - 02:30 PM"}
+    ]
+  },
+  {
+    "code": "MGT 131",
+    "sections": [
+      {"label": "AB", "sched": "WF | 02:00 PM - 03:30 PM"},
+      {"label": "CD", "sched": "TTh | 12:30 PM - 02:00 PM"},
+      {"label": "EF", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "ST", "sched": "TTh | 04:30 PM - 06:00 PM"},
+      {"label": "UV", "sched": "TTh | 11:00 AM - 12:30 PM"},
+      {"label": "WX", "sched": "TTh | 05:30 PM - 07:00 PM"},
+      {"label": "YZ", "sched": "TTh | 05:30 PM - 07:00 PM"}
+    ]
+  },
+  {
+    "code": "MGT 133",
+    "sections": [
+      {"label": "AB", "sched": "WF | 11:00 AM - 12:30 PM"},
+      {"label": "CD", "sched": "TTh | 09:00 AM - 10:30 AM"},
+      {"label": "EF", "sched": "TTh | 09:00 AM - 10:30 AM"},
+      {"label": "ST", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "UV", "sched": "TTh | 07:00 AM - 08:30 AM"},
+      {"label": "WX", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "YZ", "sched": "WF | 12:00 PM - 01:30 PM"}
+    ]
+  },
+  {
+    "code": "CHE 180",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "CD", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "EF", "sched": "WF | 12:00 PM - 01:30 PM"},
+      {"label": "ST", "sched": "TTh | 12:00 PM - 01:30 PM"},
+      {"label": "UV", "sched": "TTh | 02:30 PM - 04:00 PM"},
+      {"label": "WX", "sched": "TTh | 05:30 PM - 07:00 PM"},
+      {"label": "YZ", "sched": "TTh | 10:30 AM - 12:00 PM"}
+    ]
+  },
+  {
+    "code": "IE 191",
+    "sections": [
+      {"label": "AB", "sched": "WF | 12:00 PM - 01:30 PM"},
+      {"label": "CD", "sched": "TTh | 05:30 PM - 07:00 PM"},
+      {"label": "EF", "sched": "TTh | 07:00 AM - 08:30 AM"},
+      {"label": "ST", "sched": "TTh | 02:30 PM - 04:00 PM"},
+      {"label": "UV", "sched": "TTh | 01:00 PM - 02:30 PM"},
+      {"label": "WX", "sched": "TTh | 08:00 AM - 09:30 AM"},
+      {"label": "YZ", "sched": "WF | 07:30 AM - 09:00 AM"}
+    ]
+  },
+  {
+    "code": "ARTS 1",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 05:00 PM - 06:30 PM"},
+      {"label": "CD", "sched": "TTh | 11:00 AM - 12:30 PM"},
+      {"label": "EF", "sched": "WF | 07:30 AM - 09:00 AM"},
+      {"label": "ST", "sched": "WF | 07:00 AM - 08:30 AM"},
+      {"label": "UV", "sched": "WF | 08:30 AM - 10:00 AM"},
+      {"label": "WX", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "YZ", "sched": "TTh | 11:00 AM - 12:30 PM"}
+    ]
+  },
+  {
+    "code": "STS 1",
+    "sections": [
+      {"label": "AB", "sched": "WF | 08:30 AM - 10:00 AM"},
+      {"label": "CD", "sched": "WF | 04:00 PM - 05:30 PM"},
+      {"label": "EF", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "ST", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "UV", "sched": "TTh | 11:00 AM - 12:30 PM"},
+      {"label": "WX", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "YZ", "sched": "TTh | 11:00 AM - 12:30 PM"}
+    ]
+  },
+  {
+    "code": "KAS 1",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 05:00 PM - 06:30 PM"},
+      {"label": "CD", "sched": "WF | 10:30 AM - 12:00 PM"},
+      {"label": "EF", "sched": "TTh | 09:30 AM - 11:00 AM"},
+      {"label": "ST", "sched": "TTh | 03:30 PM - 05:00 PM"},
+      {"label": "UV", "sched": "TTh | 07:00 AM - 08:30 AM"},
+      {"label": "WX", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "YZ", "sched": "WF | 11:30 AM - 01:00 PM"}
+    ]
+  },
+  {
+    "code": "HIST 1",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 12:30 PM - 02:00 PM"},
+      {"label": "CD", "sched": "WF | 07:00 AM - 08:30 AM"},
+      {"label": "EF", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "ST", "sched": "TTh | 02:30 PM - 04:00 PM"},
+      {"label": "UV", "sched": "WF | 03:30 PM - 05:00 PM"},
+      {"label": "WX", "sched": "TTh | 11:00 AM - 12:30 PM"},
+      {"label": "YZ", "sched": "WF | 07:00 AM - 08:30 AM"}
+    ]
+  },
+  {
+    "code": "ETHICS 1",
+    "sections": [
+      {"label": "AB", "sched": "WF | 11:30 AM - 01:00 PM"},
+      {"label": "CD", "sched": "TTh | 02:30 PM - 04:00 PM"},
+      {"label": "EF", "sched": "TTh | 07:00 AM - 08:30 AM"},
+      {"label": "ST", "sched": "TTh | 01:00 PM - 02:30 PM"},
+      {"label": "UV", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "WX", "sched": "TTh | 02:00 PM - 03:30 PM"},
+      {"label": "YZ", "sched": "TTh | 01:00 PM - 02:30 PM"}
+    ]
+  },
+  {
+    "code": "ENG 10",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 03:30 PM - 05:00 PM"},
+      {"label": "CD", "sched": "WF | 05:30 PM - 07:00 PM"},
+      {"label": "EF", "sched": "TTh | 05:30 PM - 07:00 PM"},
+      {"label": "ST", "sched": "TTh | 09:00 AM - 10:30 AM"},
+      {"label": "UV", "sched": "TTh | 12:00 PM - 01:30 PM"},
+      {"label": "WX", "sched": "WF | 04:00 PM - 05:30 PM"},
+      {"label": "YZ", "sched": "WF | 05:30 PM - 07:00 PM"}
+    ]
+  },
+  {
+    "code": "COMM 10",
+    "sections": [
+      {"label": "AB", "sched": "WF | 01:30 PM - 03:00 PM"},
+      {"label": "CD", "sched": "WF | 03:00 PM - 04:30 PM"},
+      {"label": "EF", "sched": "TTh | 08:00 AM - 09:30 AM"},
+      {"label": "ST", "sched": "WF | 04:30 PM - 06:00 PM"},
+      {"label": "UV", "sched": "TTh | 05:30 PM - 07:00 PM"},
+      {"label": "WX", "sched": "WF | 03:30 PM - 05:00 PM"},
+      {"label": "YZ", "sched": "WF | 07:00 AM - 08:30 AM"}
+    ]
+  },
+  {
+    "code": "PI 10",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "CD", "sched": "TTh | 10:30 AM - 12:00 PM"},
+      {"label": "EF", "sched": "TTh | 11:30 AM - 01:00 PM"},
+      {"label": "ST", "sched": "TTh | 04:30 PM - 06:00 PM"},
+      {"label": "UV", "sched": "WF | 02:30 PM - 04:00 PM"},
+      {"label": "WX", "sched": "TTh | 05:00 PM - 06:30 PM"},
+      {"label": "YZ", "sched": "TTh | 07:30 AM - 09:00 AM"}
+    ]
+  },
+  {
+    "code": "SAS 1",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "CD", "sched": "WF | 08:00 AM - 09:30 AM"},
+      {"label": "EF", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "ST", "sched": "WF | 04:30 PM - 06:00 PM"},
+      {"label": "UV", "sched": "TTh | 11:00 AM - 12:30 PM"},
+      {"label": "WX", "sched": "TTh | 03:00 PM - 04:30 PM"},
+      {"label": "YZ", "sched": "WF | 09:30 AM - 11:00 AM"}
+    ]
+  },
+  {
+    "code": "MATH 10",
+    "sections": [
+      {"label": "AB", "sched": "WF | 02:30 PM - 04:00 PM"},
+      {"label": "CD", "sched": "TTh | 05:00 PM - 06:30 PM"},
+      {"label": "EF", "sched": "WF | 10:00 AM - 11:30 AM"},
+      {"label": "ST", "sched": "TTh | 12:30 PM - 02:00 PM"},
+      {"label": "UV", "sched": "WF | 03:00 PM - 04:30 PM"},
+      {"label": "WX", "sched": "WF | 09:30 AM - 11:00 AM"},
+      {"label": "YZ", "sched": "TTh | 09:30 AM - 11:00 AM"}
+    ]
+  },
+  {
+    "code": "SCIENCE 11",
+    "sections": [
+      {"label": "AB", "sched": "WF | 10:30 AM - 12:00 PM"},
+      {"label": "CD", "sched": "WF | 03:00 PM - 04:30 PM"},
+      {"label": "EF", "sched": "WF | 02:30 PM - 04:00 PM"},
+      {"label": "ST", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "UV", "sched": "WF | 05:00 PM - 06:30 PM"},
+      {"label": "WX", "sched": "WF | 07:30 AM - 09:00 AM"},
+      {"label": "YZ", "sched": "WF | 02:00 PM - 03:30 PM"}
+    ]
+  },
+  {
+    "code": "HUM 3",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 07:30 AM - 09:00 AM"},
+      {"label": "CD", "sched": "WF | 12:30 PM - 02:00 PM"},
+      {"label": "EF", "sched": "WF | 12:00 PM - 01:30 PM"},
+      {"label": "ST", "sched": "TTh | 11:30 AM - 01:00 PM"},
+      {"label": "UV", "sched": "WF | 07:30 AM - 09:00 AM"},
+      {"label": "WX", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "YZ", "sched": "TTh | 11:00 AM - 12:30 PM"}
+    ]
+  },
+  {
+    "code": "KAS 4",
+    "sections": [
+      {"label": "AB", "sched": "WF | 07:00 AM - 08:30 AM"},
+      {"label": "CD", "sched": "TTh | 09:00 AM - 10:30 AM"},
+      {"label": "EF", "sched": "WF | 12:30 PM - 02:00 PM"},
+      {"label": "ST", "sched": "WF | 12:00 PM - 01:30 PM"},
+      {"label": "UV", "sched": "TTh | 07:00 AM - 08:30 AM"},
+      {"label": "WX", "sched": "TTh | 09:00 AM - 10:30 AM"},
+      {"label": "YZ", "sched": "TTh | 08:00 AM - 09:30 AM"}
+    ]
+  },
+  {
+    "code": "PHILARTS 1",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 11:30 AM - 01:00 PM"},
+      {"label": "CD", "sched": "WF | 02:00 PM - 03:30 PM"},
+      {"label": "EF", "sched": "WF | 04:00 PM - 05:30 PM"},
+      {"label": "ST", "sched": "WF | 02:30 PM - 04:00 PM"},
+      {"label": "UV", "sched": "WF | 04:30 PM - 06:00 PM"},
+      {"label": "WX", "sched": "WF | 03:00 PM - 04:30 PM"},
+      {"label": "YZ", "sched": "WF | 12:00 PM - 01:30 PM"}
+    ]
+  },
+  {
+    "code": "PHLO 1",
+    "sections": [
+      {"label": "AB", "sched": "WF | 10:00 AM - 11:30 AM"},
+      {"label": "CD", "sched": "TTh | 12:30 PM - 02:00 PM"},
+      {"label": "EF", "sched": "WF | 11:00 AM - 12:30 PM"},
+      {"label": "ST", "sched": "WF | 03:00 PM - 04:30 PM"},
+      {"label": "UV", "sched": "TTh | 11:30 AM - 01:00 PM"},
+      {"label": "WX", "sched": "WF | 10:00 AM - 11:30 AM"},
+      {"label": "YZ", "sched": "WF | 01:00 PM - 02:30 PM"}
+    ]
+  },
+  {
+    "code": "PS 21",
+    "sections": [
+      {"label": "AB", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "CD", "sched": "TTh | 08:30 AM - 10:00 AM"},
+      {"label": "EF", "sched": "WF | 05:00 PM - 06:30 PM"},
+      {"label": "ST", "sched": "WF | 02:30 PM - 04:00 PM"},
+      {"label": "UV", "sched": "TTh | 09:30 AM - 11:00 AM"},
+      {"label": "WX", "sched": "WF | 03:00 PM - 04:30 PM"},
+      {"label": "YZ", "sched": "TTh | 02:30 PM - 04:00 PM"}
+    ]
+  },
+  {
+    "code": "SCIENCE 10",
+    "sections": [
+      {"label": "AB", "sched": "WF | 10:30 AM - 12:00 PM"},
+      {"label": "CD", "sched": "TTh | 10:00 AM - 11:30 AM"},
+      {"label": "EF", "sched": "TTh | 01:30 PM - 03:00 PM"},
+      {"label": "ST", "sched": "WF | 08:00 AM - 09:30 AM"},
+      {"label": "UV", "sched": "WF | 08:00 AM - 09:30 AM"},
+      {"label": "WX", "sched": "WF | 02:30 PM - 04:00 PM"},
+      {"label": "YZ", "sched": "TTh | 01:30 PM - 03:00 PM"}
+    ]
+  },
+  {
+    "code": "SOSC 3",
+    "sections": [
+      {"label": "AB", "sched": "WF | 10:00 AM - 11:30 AM"},
+      {"label": "CD", "sched": "TTh | 09:30 AM - 11:00 AM"},
+      {"label": "EF", "sched": "TTh | 08:00 AM - 09:30 AM"},
+      {"label": "ST", "sched": "WF | 08:00 AM - 09:30 AM"},
+      {"label": "UV", "sched": "WF | 03:30 PM - 05:00 PM"},
+      {"label": "WX", "sched": "TTh | 04:00 PM - 05:30 PM"},
+      {"label": "YZ", "sched": "WF | 03:00 PM - 04:30 PM"}
+    ]
+  },
+  {
+    "code": "WIKA 1",
+    "sections": [
+      { "label": "AB", "sched": "WF | 05:00 PM - 06:30 PM" },
+      { "label": "CD", "sched": "TTh | 09:30 AM - 11:00 AM" },
+      { "label": "EF", "sched": "TTh | 08:00 AM - 09:30 AM" },
+      { "label": "ST", "sched": "WF | 07:00 AM - 08:30 AM" },
+      { "label": "UV", "sched": "TTh | 01:00 PM - 02:30 PM" },
+      { "label": "WX", "sched": "TTh | 04:00 PM - 05:30 PM" },
+      { "label": "YZ", "sched": "WF | 12:30 PM - 02:00 PM" }
+    ]
+  },
+  {
+    "code": "NSTP 1",
+    "sections": [
+      { "label": "AB", "sched": "TTh | 04:30 PM - 06:00 PM" },
+      { "label": "CD", "sched": "TTh | 08:00 AM - 09:30 AM" },
+      { "label": "EF", "sched": "WF | 11:00 AM - 12:30 PM" },
+      { "label": "ST", "sched": "WF | 03:30 PM - 05:00 PM" },
+      { "label": "UV", "sched": "WF | 01:30 PM - 03:00 PM" },
+      { "label": "WX", "sched": "WF | 01:00 PM - 02:30 PM" },
+      { "label": "YZ", "sched": "WF | 11:30 AM - 01:00 PM" }
+    ]
+  },
+  {
+    "code": "NSTP 2",
+    "sections": [
+      { "label": "AB", "sched": "TTh | 09:30 AM - 11:00 AM" },
+      { "label": "CD", "sched": "TTh | 11:00 AM - 12:30 PM" },
+      { "label": "EF", "sched": "TTh | 12:00 PM - 01:30 PM" },
+      { "label": "ST", "sched": "WF | 03:00 PM - 04:30 PM" },
+      { "label": "UV", "sched": "WF | 03:00 PM - 04:30 PM" },
+      { "label": "WX", "sched": "WF | 02:00 PM - 03:30 PM" },
+      { "label": "YZ", "sched": "TTh | 10:30 AM - 12:00 PM" }
+    ]
+  },
+  {
+    "code": "HK 11",
+    "sections": [
+      { "label": "AB", "sched": "WF | 10:00 AM - 11:30 AM" },
+      { "label": "CD", "sched": "TTh | 11:00 AM - 12:30 PM" },
+      { "label": "EF", "sched": "TTh | 01:00 PM - 02:30 PM" },
+      { "label": "ST", "sched": "TTh | 07:00 AM - 08:30 AM" },
+      { "label": "UV", "sched": "TTh | 02:00 PM - 03:30 PM" },
+      { "label": "WX", "sched": "WF | 02:00 PM - 03:30 PM" },
+      { "label": "YZ", "sched": "WF | 04:30 PM - 06:00 PM" }
+    ]
+  },
+  {
+    "code": "HK 12 (1)",
+    "sections": [
+      { "label": "AB", "sched": "TTh | 01:00 PM - 02:30 PM" },
+      { "label": "CD", "sched": "WF | 07:00 AM - 08:30 AM" },
+      { "label": "EF", "sched": "WF | 04:30 PM - 06:00 PM" },
+      { "label": "ST", "sched": "TTh | 09:00 AM - 10:30 AM" },
+      { "label": "UV", "sched": "TTh | 10:00 AM - 11:30 AM" },
+      { "label": "WX", "sched": "TTh | 09:00 AM - 10:30 AM" },
+      { "label": "YZ", "sched": "TTh | 10:00 AM - 11:30 AM" }
+    ]
+  },
+  {
+    "code": "HK 12 (2)",
+    "sections": [
+      { "label": "AB", "sched": "TTh | 02:00 PM - 03:30 PM" },
+      { "label": "CD", "sched": "TTh | 05:00 PM - 06:30 PM" },
+      { "label": "EF", "sched": "WF | 11:00 AM - 12:30 PM" },
+      { "label": "ST", "sched": "TTh | 03:30 PM - 05:00 PM" },
+      { "label": "UV", "sched": "TTh | 12:30 PM - 02:00 PM" },
+      { "label": "WX", "sched": "WF | 07:30 AM - 09:00 AM" },
+      { "label": "YZ", "sched": "TTh | 09:00 AM - 10:30 AM" }
+    ]
+  },
+  {
+    "code": "HK 12 (3)",
+    "sections": [
+      { "label": "AB", "sched": "TTh | 02:30 PM - 04:00 PM" },
+      { "label": "CD", "sched": "WF | 09:00 AM - 10:30 AM" },
+      { "label": "EF", "sched": "WF | 08:00 AM - 09:30 AM" },
+      { "label": "ST", "sched": "TTh | 11:00 AM - 12:30 PM" },
+      { "label": "UV", "sched": "WF | 11:30 AM - 01:00 PM" },
+      { "label": "WX", "sched": "WF | 03:00 PM - 04:30 PM" },
+      { "label": "YZ", "sched": "TTh | 09:00 AM - 10:30 AM" }
+    ]
+  },
+  {
+    "code": "IE 125", "type": "with lab",
+    "sections": [
+        {
+            "label": "AB",
+            "sched": "W | 11:00 AM - 01:00 PM",
+            "lab": [
+                {"lab_label": "1L", "lab_sched": "F | 01:30 PM - 04:30 PM"},
+                {"lab_label": "2L", "lab_sched": "M | 03:30 PM - 06:30 PM"},
+                {"lab_label": "3L", "lab_sched": "T | 01:00 PM - 04:00 PM"}
+            ]
+        },
+        {
+            "label": "EF",
+            "sched": "F | 10:30 AM - 12:30 PM",
+            "lab": [
+                {"lab_label": "1L", "lab_sched": "W | 04:00 PM - 07:00 PM"},
+                {"lab_label": "2L", "lab_sched": "T | 03:00 PM - 06:00 PM"},
+                {"lab_label": "3L", "lab_sched": "Th | 08:00 AM - 11:00 AM"}
+            ]
+        },
+        {
+            "label": "ST",
+            "sched": "F | 07:30 AM - 09:30 AM",
+            "lab": [
+                {"lab_label": "1L", "lab_sched": "W | 03:00 PM - 06:00 PM"},
+                {"lab_label": "2L", "lab_sched": "Th | 08:00 AM - 11:00 AM"},
+                {"lab_label": "3L", "lab_sched": "W | 10:00 AM - 01:00 PM"}
+            ]
+        }
+    ]
+  },
+  {
+    "code": "IE 132", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "W | 02:30 PM - 04:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "F | 08:00 AM - 11:00 AM"},
+          {"lab_label": "2L", "lab_sched": "M | 11:00 AM - 02:00 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 12:00 PM - 03:00 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "W | 12:00 PM - 02:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 08:00 AM - 11:00 AM"},
+          {"lab_label": "2L", "lab_sched": "M | 07:30 AM - 10:30 AM"},
+          {"lab_label": "3L", "lab_sched": "F | 04:00 PM - 07:00 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "W | 12:30 PM - 02:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "F | 10:00 AM - 01:00 PM"},
+          {"lab_label": "2L", "lab_sched": "F | 01:00 PM - 04:00 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 08:30 AM - 11:30 AM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IE 134", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "T | 01:30 PM - 03:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 10:00 AM - 01:00 PM"},
+          {"lab_label": "2L", "lab_sched": "M | 01:00 PM - 04:00 PM"},
+          {"lab_label": "3L", "lab_sched": "F | 03:00 PM - 06:00 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "W | 03:00 PM - 05:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "T | 08:00 AM - 11:00 AM"},
+          {"lab_label": "2L", "lab_sched": "M | 07:30 AM - 10:30 AM"},
+          {"lab_label": "3L", "lab_sched": "T | 01:00 PM - 04:00 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "F | 01:30 PM - 03:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 07:00 AM - 10:00 AM"},
+          {"lab_label": "2L", "lab_sched": "W | 02:30 PM - 05:30 PM"},
+          {"lab_label": "3L", "lab_sched": "W | 01:30 PM - 04:30 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IE 144", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "F | 09:30 AM - 11:30 AM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "F | 03:00 PM - 06:00 PM"},
+          {"lab_label": "2L", "lab_sched": "Th | 02:00 PM - 05:00 PM"},
+          {"lab_label": "3L", "lab_sched": "Th | 03:00 PM - 06:00 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "Th | 03:00 PM - 05:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "F | 09:30 AM - 12:30 PM"},
+          {"lab_label": "2L", "lab_sched": "M | 02:00 PM - 05:00 PM"},
+          {"lab_label": "3L", "lab_sched": "F | 12:00 PM - 03:00 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "W | 02:30 PM - 04:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 01:30 PM - 04:30 PM"},
+          {"lab_label": "2L", "lab_sched": "F | 03:00 PM - 06:00 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 03:00 PM - 06:00 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IE 151", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "W | 01:30 PM - 03:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "T | 02:30 PM - 05:30 PM"},
+          {"lab_label": "2L", "lab_sched": "Th | 02:00 PM - 05:00 PM"},
+          {"lab_label": "3L", "lab_sched": "W | 08:00 AM - 11:00 AM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "Th | 11:30 AM - 01:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 11:00 AM - 02:00 PM"},
+          {"lab_label": "2L", "lab_sched": "T | 11:00 AM - 02:00 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 03:30 PM - 06:30 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "Th | 03:00 PM - 05:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 11:30 AM - 02:30 PM"},
+          {"lab_label": "2L", "lab_sched": "W | 10:00 AM - 01:00 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 09:00 AM - 12:00 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IE 152", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "F | 10:30 AM - 12:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 02:00 PM - 05:00 PM"},
+          {"lab_label": "2L", "lab_sched": "Th | 09:30 AM - 12:30 PM"},
+          {"lab_label": "3L", "lab_sched": "T | 10:30 AM - 01:30 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "W | 01:00 PM - 03:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 10:00 AM - 01:00 PM"},
+          {"lab_label": "2L", "lab_sched": "T | 10:00 AM - 01:00 PM"},
+          {"lab_label": "3L", "lab_sched": "W | 03:30 PM - 06:30 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "F | 04:30 PM - 06:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 10:00 AM - 01:00 PM"},
+          {"lab_label": "2L", "lab_sched": "W | 10:00 AM - 01:00 PM"},
+          {"lab_label": "3L", "lab_sched": "W | 09:30 AM - 12:30 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IE 184", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "M | 11:30 AM - 01:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 08:00 AM - 11:00 AM"},
+          {"lab_label": "2L", "lab_sched": "F | 03:30 PM - 06:30 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 02:30 PM - 05:30 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "W | 01:30 PM - 03:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "T | 11:30 AM - 02:30 PM"},
+          {"lab_label": "2L", "lab_sched": "F | 10:30 AM - 01:30 PM"},
+          {"lab_label": "3L", "lab_sched": "F | 01:00 PM - 04:00 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "T | 10:00 AM - 12:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "F | 07:00 AM - 10:00 AM"},
+          {"lab_label": "2L", "lab_sched": "M | 12:30 PM - 03:30 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 02:00 PM - 05:00 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IE 185", "type": "with lab",
+    "sections": [ 
+      {
+        "label": "AB",
+        "sched": "F | 10:00 AM - 12:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 04:00 PM - 07:00 PM"},
+          {"lab_label": "2L", "lab_sched": "F | 02:00 PM - 05:00 PM"},
+          {"lab_label": "3L", "lab_sched": "T | 02:00 PM - 05:00 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "Th | 08:00 AM - 10:00 AM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 12:00 PM - 03:00 PM"},
+          {"lab_label": "2L", "lab_sched": "M | 11:00 AM - 02:00 PM"},
+          {"lab_label": "3L", "lab_sched": "T | 01:00 PM - 04:00 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "T | 11:30 AM - 01:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "F | 09:30 AM - 12:30 PM"},
+          {"lab_label": "2L", "lab_sched": "W | 10:00 AM - 01:00 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 11:00 AM - 02:00 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ENSC 14A", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "TWThF | 09:00 AM - 10:00 AM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 11:30 AM - 02:30 PM"},
+          {"lab_label": "2L", "lab_sched": "F | 01:30 PM - 04:30 PM"},
+          {"lab_label": "3L", "lab_sched": "W | 01:00 PM - 04:00 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "TWThF | 05:00 PM - 06:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "T | 12:00 PM - 03:00 PM"},
+          {"lab_label": "2L", "lab_sched": "T | 01:30 PM - 04:30 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 03:30 PM - 06:30 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "TWThF | 02:30 PM - 03:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 01:30 PM - 04:30 PM"},
+          {"lab_label": "2L", "lab_sched": "T | 08:00 AM - 11:00 AM"},
+          {"lab_label": "3L", "lab_sched": "M | 03:30 PM - 06:30 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ENSC 26", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "M | 02:30 PM - 04:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 03:00 PM - 06:30 PM"},
+          {"lab_label": "2L", "lab_sched": "W | 02:00 PM - 05:00 PM"},
+          {"lab_label": "3L", "lab_sched": "Th | 07:30 AM - 10:30 AM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "Th | 01:30 PM - 03:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 09:30 AM - 12:30 PM"},
+          {"lab_label": "2L", "lab_sched": "W | 10:30 AM - 01:30 PM"},
+          {"lab_label": "3L", "lab_sched": "W | 08:30 AM - 11:30 AM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "F | 10:00 AM - 12:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "F | 01:30 PM - 04:30 PM"},
+          {"lab_label": "2L", "lab_sched": "Th | 12:30 PM - 03:30 PM"},
+          {"lab_label": "3L", "lab_sched": "W | 10:30 AM - 01:30 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ABE 43", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "W | 03:00 PM - 05:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 08:00 AM - 11:00 AM"},
+          {"lab_label": "2L", "lab_sched": "M | 03:30 PM - 06:30 PM"},
+          {"lab_label": "3L", "lab_sched": "Th | 10:30 AM - 01:30 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "Th | 07:00 AM - 09:00 AM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 03:30 PM - 06:30 PM"},
+          {"lab_label": "2L", "lab_sched": "Th | 10:30 AM - 01:30 PM"},
+          {"lab_label": "3L", "lab_sched": "T | 07:30 AM - 10:30 AM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "F | 10:30 AM - 12:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 10:30 AM - 01:30 PM"},
+          {"lab_label": "2L", "lab_sched": "T | 07:30 AM - 10:30 AM"},
+          {"lab_label": "3L", "lab_sched": "Th | 10:00 AM - 01:00 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "STAT 101", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "W | 08:30 AM - 10:30 AM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "T | 03:30 PM - 06:30 PM"},
+          {"lab_label": "2L", "lab_sched": "M | 09:30 AM - 12:30 PM"},
+          {"lab_label": "3L", "lab_sched": "Th | 10:00 AM - 01:00 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "T | 01:30 PM - 03:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 09:30 AM - 12:30 PM"},
+          {"lab_label": "2L", "lab_sched": "W | 12:00 PM - 03:00 PM"},
+          {"lab_label": "3L", "lab_sched": "Th | 10:30 AM - 01:30 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "M | 04:30 PM - 06:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "M | 09:30 AM - 12:30 PM"},
+          {"lab_label": "2L", "lab_sched": "W | 02:30 PM - 05:30 PM"},
+          {"lab_label": "3L", "lab_sched": "Th | 10:30 AM - 01:30 PM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "EE 1", "type": "with lab",
+    "sections": [
+      {
+        "label": "AB",
+        "sched": "M | 10:30 AM - 12:30 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "W | 07:00 AM - 10:00 AM"},
+          {"lab_label": "2L", "lab_sched": "Th | 10:30 AM - 01:30 PM"},
+          {"lab_label": "3L", "lab_sched": "T | 01:00 PM - 04:00 PM"}
+        ]
+      },
+      {
+        "label": "EF",
+        "sched": "Th | 02:00 PM - 04:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "W | 08:30 AM - 11:30 AM"},
+          {"lab_label": "2L", "lab_sched": "W | 01:30 PM - 04:30 PM"},
+          {"lab_label": "3L", "lab_sched": "W | 02:00 PM - 05:00 PM"}
+        ]
+      },
+      {
+        "label": "ST",
+        "sched": "Th | 10:00 AM - 12:00 PM",
+        "lab": [
+          {"lab_label": "1L", "lab_sched": "Th | 03:30 PM - 06:30 PM"},
+          {"lab_label": "2L", "lab_sched": "M | 12:00 PM - 03:00 PM"},
+          {"lab_label": "3L", "lab_sched": "M | 09:00 AM - 11:00 AM"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "IE 198",
+    "sections": [
+      {"label": "AB", "sched": "TBA"}
+    ]
+  },
+  {
+    "code": "IE 200A",
+    "sections": [
+      {"label": "AB", "sched": "TBA"}
+    ]
+  },
+  {
+    "code": "IE 200B",
+    "sections": [
+      {"label": "AB", "sched": "TBA"}
+    ]
+  },
+  {
+    "code": "IE 200C",
+    "sections": [
+      {"label": "AB", "sched": "TBA"}
+    ]
+  }
+]
+ 

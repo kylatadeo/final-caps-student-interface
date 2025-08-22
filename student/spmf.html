@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS and JS -->
+        <link rel="stylesheet" href="../styles/general.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon" />
+
+        <link rel="stylesheet" href="styles/student-info.css">
+        <link rel="stylesheet" href="styles/spmf.css">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="app.js"
+        defer></script>
+        <script type="text/javascript" src="charts.js" defer></script>
+</head>
+<body>
+    <div class="main-contents bg-white border-lightgray txt-13" >
+        <div class="form-container">
+            <div class="title">
+                STUDENT PROGRESS MONITORING FLOWCHART OF <br>
+                <strong>BACHELOR OF SCIENCE IN INDUSTRIAL ENGINEERING</strong>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="completed"></div>
+            <div id="coursePlan"></div>
+            <div id="notCompleted"></div>
+        </div>
+        
+        <div class="progress-info">
+            <span id="percent-completed" class="progress-percentage txt-20 txt-semibold"></span>
+            <span id="units-completed" class="progress-text txt-13 txt-gray2"></span>
+          </div>
+        
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+            <div class="progress-ongoing"></div>
+            <div class="progress-remaining"></div>
+          </div>
+        
+          <div class="legend">
+            <span class="legend-item txt-13 txt-gray2">
+                <span class="dot ongoing"></span> 
+                <span id="units-in-progress"></span>
+            </span>
+            <span class="legend-item txt-13 txt-gray2">
+                <span class="dot remaining"></span> 
+                <span id="units-not-started"></span>
+            </span>
+        </div>
+
+        <div style="display: flex; gap: 20px; align-items: start; margin-top: 15px;">
+            <div style="display: flex; gap: 15px; align-items: center;">
+                <button id="preview-spmf-button" class="button bg-green txt-white">
+                <span class="material-symbols-outlined">
+                    preview</span>
+                <span class="txt-14 txt-semibold">Preview PDF</span>
+                </button>
+            </div>
+            <div style="display: flex; gap: 15px; align-items: center;">
+                <button class="request-button button bg-blue txt-white">
+                <span class="material-symbols-outlined">
+                    assignment_add</span>
+                <span class="txt-14 txt-semibold">Request Adviser Review</span>
+                </button>
+            </div>
+            <div class="legend-box1">
+                <div class="txt-14 txt-semibold txt-gray0">Color Legend:</div>
+
+                <div class="legend-box2">
+                    <div class="legend-item1" style="color: #23856a">
+                        <span class="legend-color1 completed1"></span> Completed
+                    </div>
+                    <div class="legend-item1" style="color: #e69138">
+                        <span class="legend-color1 ongoing1"></span> Ongoing
+                    </div>
+                    <div class="legend-item1" style="color: #343434">
+                        <span class="legend-color1 not-started1"></span> Not Started
+                    </div>
+                    <div class="legend-item1" style="color: #6a0000">
+                        <span class="legend-color1 failed1"></span> Failed
+                    </div>
+                    <div class="legend-item1" style="color: #5a4475">
+                        <span class="legend-color1 conditional1"></span> Conditional
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

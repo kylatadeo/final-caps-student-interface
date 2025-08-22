@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS and JS -->
+    <link rel="stylesheet" href="../styles/general.css">
+    
+    <link rel="stylesheet" href="styles/student-info.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="app.js"
+    defer></script>
+    <script type="text/javascript" src="charts.js"
+    defer></script>
+  </head>
+  <body>
+    <main>
+      <!--course analytics-->
+      <div class="analytics-container bg-white border-lightgray border-round4 txt-13">
+        <div class="pad20-24 bg-body bdr-left" style="
+          border-right-width: 1px;
+          border-right-style: solid;
+          border-right-color: #e5e7eb;">
+
+          <h1 class="txt-24 txt-semibold txt-gray1">Course Analytics</h1>
+
+          <div class="search-bar">
+            <div>
+              <p class="txt-12 txt-gray1">Course Code</p>
+              <input type="text">
+            </div>
+            <div>
+              <button class="button bg-blue txt-white">
+                <span class="material-symbols-outlined">
+                  search</span>
+              </button>
+            </div>
+            
+          </div>
+
+          <div class="course-categories">
+            <p class="txt-12 txt-gray1">Course Categories</p>
+
+            <ul>
+              <li>
+                <button class="button">
+                  <span>C</span>
+                  <span>Core IE</span>
+                </button>
+              </li>
+              <li>
+                <button class="button">
+                  <span>F</span>
+                  <span>Foundational</span>
+                </button>
+              </li>
+              <li>
+                <button class="button">
+                  <span>S</span>
+                  <span>Specialized</span>
+                </button>
+              </li>
+              <li>
+                <button class="button">
+                  <span>E</span>
+                  <span>Elective</span>
+                </button>
+              </li>
+              <li>
+                <button class="button">
+                  <span>T</span>
+                  <span>Technical Cognate</span>
+                </button>
+              </li>
+              <li>
+                <button class="button">
+                  <span>G</span>
+                  <span>General Education</span>
+                </button>
+              </li>
+              <li>
+                <button class="button">
+                  <span>O</span>
+                  <span>Others</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="pad20-24 bdr-right">
+          <div class="course-header">
+            <div class="course-name">
+              <span class="txt-22">F</span>
+              <div class="text">
+                <p class="txt-22 txt-bold txt-maroon">ENSC 11</p>
+                <p class="txt-gray1 txt-14">Statics of Rigid Bodies</p>
+                
+              </div>
+            </div>
+            <div>
+              <div class="filter bg-body txt-gray2 txt-13">
+                <span class="material-symbols-outlined">date_range</span>
+                <span>January 2022 - June 2025</span>
+                <span>&nbsp;▼</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="general-details">
+            <p class="txt-17 txt-semibold txt-maroon">General Details</p>
+            <table>
+              <tr>
+                <td rowspan="3" class="txt-14 txt-gray1" style="width: 400px;">
+                  <div style="width: 380px;">
+                    <strong>Description: </strong>Fundamental principles of equilibrium of rigid bodies; analysis of structures; first and second moments of mass, volume, area and length; shear and bending diagrams.
+                  </div>
+                </td>
+                <td class="center"><div class="badge green txt-15 txt-semibold">3</div></td>
+                <td class="center" style="width: 130px;"><div class="badge green txt-15 txt-semibold">1s, 2s, M</div></td>
+                <td class="center"><div class="badge green txt-15 txt-semibold">MATH 27, PHYS 51</div></td>
+              </tr>
+              <tr>
+                <td class="center txt-gray0 txt-14">Credit units</td>
+                <td class="center txt-gray0 txt-14">Sem offered</td>
+                <td class="center txt-gray0 txt-14">Prerequisites</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="visuals1">
+            <div>
+              <div class="column" style="margin-bottom: 15px; width: 387.148px">
+                <div class="space">
+                  <div class="txt-14 txt-semibold txt-gray0">Passing Rate</div>
+                  <div class="filter bg-body txt-gray2 txt-12">
+                    <span>Filter by no. of takes</span>
+                    <span>&nbsp;▼</span>
+                  </div>
+                </div>
+                <h1 class="txt-green txt-semibold" style="font-size: 28px; padding-bottom: 5px;">80%</h1>
+                <div id="chart3_div" style="width: 355.468px; height: 15px;"></div>
+
+                <div class="legend1" style="font-size: 10px; gap: 20px;">
+                  <div class="legend-item1"><span class="legend-circle c1"></span>1 Take</div>
+                  <div class="legend-item1"><span class="legend-circle c2"></span> 2 Takes</div>
+                  <div class="legend-item1"><span class="legend-circle c3"></span> 3 Takes</div>
+                  <div class="legend-item1"><span class="legend-circle c4"></span>  &gt;3 </div>
+                </div>
+              </div>
+
+              <div class="column" style="width: 387.148px">
+                <div class="space">
+                  <div class="txt-14 txt-semibold txt-gray0">Difficulty Level</div>
+                  <div class="txt-12 txt-gray0">(according to students)</div>
+                </div>
+                
+                <h1 class="txt-purple txt-semibold txt-22" style="padding: 5px 0;">Somewhat difficult</h1>
+                <div id="chart4_div" style="width: 355.468px; height: 15px;"></div>
+
+                <div class="legend1" style="font-size: 6px; gap: 5px;">
+                  <div class="legend-item1"><span class="legend-circle d1"></span>Very easy</div>
+                  <div class="legend-item1"><span class="legend-circle d2"></span>Easy</div>
+                  <div class="legend-item1"><span class="legend-circle d3"></span> Somewhat easy</div>
+                  <div class="legend-item1"><span class="legend-circle d4"></span>Moderate</div>
+                  <div class="legend-item1"><span class="legend-circle d5"></span>Somewhat difficult</div>
+                  <div class="legend-item1"><span class="legend-circle d6"></span> Difficult</div>
+                  <div class="legend-item1"><span class="legend-circle d7"></span> Very difficult</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column" style="width: 483.958px">
+              <p class="txt-17 txt-semibold txt-maroon">Enrollment trends</p>
+              <div class="legend1" style="font-size: 12px; gap: 20px;">
+                  <div class="legend-item1"><span class="legend-circle c5"></span>1st sem</div>
+                  <div class="legend-item1"><span class="legend-circle c6"></span> 2nd sem</div>
+                  <div class="legend-item1"><span class="legend-circle c7"></span> Midyear</div>
+              </div>
+              <div id="chart5_div" style="width: 452px; height: 184.4px;"></div>
+            </div>
+          </div>
+
+          <div class="visuals2">
+            <div class="column">
+              <p class="txt-17 txt-semibold txt-maroon" style="margin-bottom: 5px;">Grade Distribution</p>
+              <table class="grade-freq txt-gray2">
+                <tr>
+                  <td>🏆</td>
+                  <td>Excellent</td>
+                  <td>(1.00-1.25)</td>
+                  <td>
+                    <div class="progress-line" style="transform: translateY(-5px);">
+                      <div style="
+                        height: 100%;
+                        background: #7e7784;
+                        position: absolute;
+                        width: 50.64%;
+                        "></div>
+                    </div>
+                  </td>
+                  <td>10,128</td>
+                </tr>
+                <tr>
+                  <td>🥇</td>
+                  <td>Very Good</td>
+                  <td>(1.50-1.75)</td>
+                  <td>
+                    <div class="progress-line" style="transform: translateY(-5px);">
+                      <div style="
+                        height: 100%;
+                        background: #7e7784;
+                        position: absolute;
+                        width: 45.51%;
+                        "></div>
+                    </div>
+                  </td>
+                  <td>9,102</td>
+                </tr>
+                <tr>
+                  <td>🥈</td>
+                  <td>Good</td>
+                  <td>(2.00-2.25)</td>
+                  <td>
+                    <div class="progress-line" style="transform: translateY(-5px);">
+                      <div style="
+                        height: 100%;
+                        background: #7e7784;
+                        position: absolute;
+                        width: 71.47%;
+                        "></div>
+                    </div>
+                  </td>
+                  <td>14,293</td>
+                </tr>
+                <tr>
+                  <td>🥉</td>
+                  <td>Satisfactory</td>
+                  <td>(2.50-2.75)</td>
+                  <td>
+                    <div class="progress-line" style="transform: translateY(-5px);">
+                      <div style="
+                        height: 100%;
+                        background: #7e7784;
+                        position: absolute;
+                        width: 29.51%;
+                        "></div>
+                    </div>
+                  </td>
+                  <td>5,902</td>
+                </tr>
+                <tr>
+                  <td>⭐</td>
+                  <td>Pass</td>
+                  <td>(3.00)</td>
+                  <td>
+                    <div class="progress-line" style="transform: translateY(-5px);">
+                      <div style="
+                        height: 100%;
+                        background: #7e7784;
+                        position: absolute;
+                        width: 37.17%;
+                        "></div>
+                    </div>
+                  </td>
+                  <td>7,433</td>
+                </tr>
+                <tr>
+                  <td>🚨</td>
+                  <td>Conditional</td>
+                  <td>(4.00)</td>
+                  <td>
+                    <div class="progress-line" style="transform: translateY(-5px);">
+                      <div style="
+                        height: 100%;
+                        background: #7e7784;
+                        position: absolute;
+                        width: 2.51%;
+                        "></div>
+                    </div>
+                  </td>
+                  <td>502</td>
+                </tr>
+                <tr>
+                  <td>🚩</td>
+                  <td>Fail</td>
+                  <td>(5.00)</td>
+                  <td>
+                    <div class="progress-line" style="transform: translateY(-5px);">
+                      <div style="
+                        height: 100%;
+                        background: #7e7784;
+                        position: absolute;
+                        width: 20.06%;
+                        "></div>
+                    </div>
+                  </td>
+                  <td>4,102</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="column">
+              <p class="txt-17 txt-semibold txt-maroon" style="margin-bottom: 5px;">Insights</p>
+
+              <table class="trend-table">
+                <tr>
+                  <td>1</td>
+                  <td>Commonly co-enrolled with MATH 28, with a 80% passing rate.</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Co-enrollment with IE 141 lowers the passing rate to 70%.</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Frequently rated as <i>very difficult </i>when co-enrolled with ENSC 21.</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Students with satisfactory grades or higher in MATH 27 typically perform well in ENSC 11.</td>
+                </tr>
+            </table>
+            </div>
+          </div>
+
+          <div class="general-details column" style="margin-top: 15px;">
+            <p class="txt-17 txt-semibold txt-maroon">Grade Prediction Tool</p>
+            <p class="txt-13 txt-gray2">Try predicting your grade. Input the grades of its prerequisite courses.</p>
+
+            <div style="display:grid; 
+            grid-template-columns: 1fr 1fr; 
+            margin-top: 10px;">
+              <div>
+                <table class="txt-14 grade-prediction">
+                  <tr>
+                    <td class="txt-bold txt-darkgreen">Difficulty Level</td>
+                    <td class="badge purple txt-semibold" style="padding: 3px 12px">Somewhat Difficult</td>
+                  </tr>
+                  <tr>
+                    <td class="txt-bold txt-darkgreen">MATH 27 Grade</td>
+                    <td><input type="text" id="name" placeholder="Enter a grade"></td>
+                  </tr>
+                  <tr>
+                    <td class="txt-bold txt-darkgreen">PHYS 51 Grade</td>
+                    <td><input type="text" id="name" placeholder="Enter a grade"></td>
+                  </tr>
+                </table>
+                <button class="calculate-button bg-blue button txt-white">Calculate</button>
+              </div>
+              <div>
+                <p class="txt-15">Your calculated predicted grade in <strong class="txt-green">ENSC 11 </strong>is . . .</p>
+                <div class="txt-bold txt-maroon" style="background: #f3f4f6; 
+                width: 80%; 
+                height: 57px; 
+                margin-top: 8px;
+                padding: 8px;
+                font-size: 30px;
+                text-align: center;">
+                  2.00
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+  </body>
+</html>

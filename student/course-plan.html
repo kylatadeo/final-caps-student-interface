@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS and JS -->
+        <link rel="stylesheet" href="../styles/general.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon" />
+
+        <link rel="stylesheet" href="styles/course-plan.css">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="charts.js" defer></script>
+        <script type="text/javascript" src="app.js" defer></script>
+  </head>
+  <body>
+    <!--schedule-->
+    <div class="schedule-container">
+      <div class="heading bg-blue txt-14 txt-bold txt-white border-round4" style="margin-right: 10px;">Class Schedule</div>
+      <div class="heading bg-yellow txt-14 txt-bold txt-white border-round4">Warnings</div>
+      <div style="margin-right: 10px; margin-top: 10px;" class="border-lightgray bg-body">
+        <table class="schedule-table">
+          <thead>
+              <tr>
+                  <th>Time</th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+              </tr>
+          </thead>
+          <tbody id="scheduleBody"></tbody>
+        </table>
+
+        <div class="download-sched">
+          <button class="download-button button bg-green txt-white">
+            <span class="material-symbols-outlined">
+                download</span>
+            <span class="txt-14 txt-semibold">Download</span>
+          </button>
+        </div>
+      </div>
+      
+      <div class="enlistment-warning border-lightgray txt-14">
+      </div>
+    </div>
+
+    <!--scorecards-->
+    <div class="container">
+      <div class="scorecards">
+        <div class="scorecard">
+          <span class="icon blue">📖</span>
+          <div class="text">
+            <p class="txt-gray2">Total number of units</p>
+            <p class="total-units txt-14 txt-bold">0</p>
+          </div>
+        </div>
+      
+        <div class="scorecard">
+          <span class="icon yellow">📚</span>
+          <div class="text">
+            <p class="txt-gray2">Overall Difficulty</p>
+            <p id="overallDiff" class="txt-14 txt-bold">-</p>
+          </div>
+        </div>
+      
+        <div class="scorecard">
+          <span class="icon orange">🧠</span>
+          <div class="text">
+            <p class="txt-gray2">Predicted GPA</p>
+            <p id="predGPA" class="txt-14 txt-bold">-</p>
+          </div>
+        </div>
+      </div>
+      <div style="flex: 1;"></div>
+      <div class="right">
+        <div>
+          <button class="preferences-button button bg-lightgray txt-14 txt-maroon">
+            <span class="material-symbols-outlined">
+              edit_square</span>
+            <span class="txt-semibold">Edit your preferences</span>
+          </button>
+        </div>
+
+        <div class="button-save hidden">
+          <button class="savePref-button button bg-lightgray txt-14 txt-darkgreen">
+            <span class="material-symbols-outlined">
+              check_circle</span>
+            <span class="txt-semibold ">Save preferences</span>
+          </button>
+        </div>
+        
+        <div class="course-plan-status">
+          <button class="generate-button bg-black button txt-white  txt-14">Generate Course Plan</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="prefList-container bg-white border-lightgray main-contents hide">
+      <p class="txt-17 txt-bold txt-maroon">Enter your preferences</p>
+      <p class="txt-13 txt-gray2" style="
+      margin-bottom: 5px;
+      ">These preferences will help the system generate a personalized course plan for you.</p>
+      <div class="prefInner">
+        <div>
+          <table>
+            <tr>
+            <td>Preferred number of units</td>
+            <td>
+                <select id="units">
+                <option value="21">21</option>
+                <option value="18">18</option>
+                <option value="15">15</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+            <td>Preferred level of difficulty</td>
+            <td>
+                <select id="difficulty">
+                <option value="1">Very easy</option>
+                <option value="2">Easy</option>
+                <option value="3">Somewhat easy</option>
+                <option value="4" selected>Moderate</option>
+                <option value="5">Somewhat difficult</option>
+                <option value="6">Difficult</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+            <td>Research Track</td>
+            <td>
+                <select id="ie200">
+                <option value="IE 200">Thesis</option>
+                <option value="IE 200B">Innovationeering</option>
+                <option value="IE 200C" selected>Engineering Industry Research</option>
+                </select>
+            </td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <table>
+            <tr>
+            <td>Technical Cognates</td>
+            <td>
+                <select id="cognate_1">
+                <option value="MGT 131" selected>MGT 131</option>
+                <option value="MGT 133">MGT 133</option>
+                <option value="CHE 180">CHE 180</option>
+                <option value="IE 191">IE 191</option>
+                <option value="CMSC 21">CMSC 21</option>
+                <option value="CMSC 22">CMSC 22</option>
+                </select>
+                <select id="cognate_2">
+                <option value="MGT 131">MGT 131</option>
+                <option value="MGT 133">MGT 133</option>
+                <option value="CHE 180">CHE 180</option>
+                <option value="IE 191" selected>IE 191</option>
+                <option value="CMSC 21">CMSC 21</option>
+                <option value="CMSC 22">CMSC 22</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+            <td>GE Electives</td>
+            <td>
+                <select id="ge_1">
+                <option value="SAS 1" selected>SAS 1</option>
+                <option value="MATH 10">MATH 10</option>
+                <option value="SCIENCE 11">SCIENCE 11</option>
+                <option value="HUM 3">HUM 3</option>
+                <option value="KAS 4">KAS 4</option>
+                <option value="PHILARTS 1">PHILARTS 1</option>
+                <option value="PHLO 1">PHLO 1</option>
+                <option value="PS 21">PS 21</option>
+                <option value="SCIENCE 10">SCIENCE 10</option>
+                <option value="SOSC 3">SOSC 3</option>
+                <option value="WIKA 1">WIKA 1</option>
+                </select>
+
+                <select id="ge_2">
+                <option value="SAS 1">SAS 1</option>
+                <option value="MATH 10" selected>MATH 10</option>
+                <option value="SCIENCE 11">SCIENCE 11</option>
+                <option value="HUM 3">HUM 3</option>
+                <option value="KAS 4">KAS 4</option>
+                <option value="PHILARTS 1">PHILARTS 1</option>
+                <option value="PHLO 1">PHLO 1</option>
+                <option value="PS 21">PS 21</option>
+                <option value="SCIENCE 10">SCIENCE 10</option>
+                <option value="SOSC 3">SOSC 3</option>
+                <option value="WIKA 1">WIKA 1</option>
+                </select>
+
+                <select id="ge_3">
+                <option value="SAS 1">SAS 1</option>
+                <option value="MATH 10">MATH 10</option>
+                <option value="SCIENCE 11" selected>SCIENCE 11</option>
+                <option value="HUM 3">HUM 3</option>
+                <option value="KAS 4">KAS 4</option>
+                <option value="PHILARTS 1">PHILARTS 1</option>
+                <option value="PHLO 1">PHLO 1</option>
+                <option value="PS 21">PS 21</option>
+                <option value="SCIENCE 10">SCIENCE 10</option>
+                <option value="SOSC 3">SOSC 3</option>
+                <option value="WIKA 1">WIKA 1</option>
+                </select>
+            </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+    <div id="coursePlan" class="hide"></div>
+    <div id="notCompleted" class="hide"></div>
+
+    <div id="termActive" class="heading2 bg-darkgreen txt-14 txt-bold txt-white border-round4" style="margin-top: 16px;">Recommended Courses for the Upcoming Term</div>
+
+    <!--placeholder-->
+    <table class="course-table txt-14">
+      <thead>
+        <tr>
+          <th>Course Code</th>
+          <th>Title</th>
+          <th>Credited Units</th>
+          <th>Difficulty Level</th>
+          <th>Predicted Grade</th>
+          <th style="width: 200px;">Available Sections</th>
+          <th> </th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody class="course-plan">
+        <tr class="course-info">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="difficulty"></td>
+          <td class="performance"></td>
+          <td>
+            <button class="view-button bg-green button txt-white">View Info</button>
+            <button id="remove-button" class="remove-button hide bg-red button txt-white">Remove</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="display: flex; justify-content: end; gap: 10px;">
+      <button id="modify-button" class="modify-button bg-blue button txt-white">Modify</button>
+      <button id="save-button" class="save-button bg-green button txt-white hidden">Save Changes</button>
+    </div>
+
+    <div class="courseList-container hide">
+      <div class="heading2 bg-yellow txt-14 txt-bold txt-white border-round4" style="margin-top: 32px;">Add a Course</div>
+
+      <div class="search-bar">
+        <div>
+          <p class="txt-12 txt-gray1">Course Code</p>
+          <input type="text" id="course-input">
+        </div>
+        <div>
+          <button id="filter" class="button bg-blue txt-white">
+            <span class="material-symbols-outlined">
+              filter_alt</span>
+            <span class="txt-14 txt-semibold">Apply Filter</span>
+          </button>
+        </div>
+        
+      </div>
+  
+      <!--course list-->
+      <div class="tabs">
+        <div class="tab1 active1" onclick="courseLists(0,'all_courses')">🕮 All</div>
+        <div class="tab1 inactive1" onclick="courseLists(1,'core')">🕮 Core</div>
+        <div class="tab1 inactive1" onclick="courseLists(2,'foundational')">🕮 Foundational</div>
+        <div class="tab1 inactive1" onclick="courseLists(3,'specialized')">🕮 Specialized</div>
+        <div class="tab1 inactive1" onclick="courseLists(4,'elective')">🕮 Elective</div>
+        <div class="tab1 inactive1" onclick="courseLists(5,'cognate')">🕮 Technical Cognate</div>
+        <div class="tab1 inactive1" onclick="courseLists(6,'ge')">🕮 General Education</div>
+        <div class="tab1 inactive1" onclick="courseLists(7,'non_gpa')">🕮 Non-GPA</div>
+      </div>
+      <!-- Tab Content (Dynamic Load) -->
+        <!--table-->
+      <table class="course-table txt-14">
+        <thead>
+          <tr>
+            <th>Course Code</th>
+            <th>Title</th>
+            <th>Credited Units</th>
+            <th>Difficulty Level</th>
+            <th>Predicted Grade</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody class="course-list">
+          <tr class="course-info">
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td class="difficulty"></td>
+            <td class="performance"></td>
+            <td>
+              <button class="view-button bg-green button txt-white">View Info</button>
+              <button class="add-button bg-blue button txt-white">Add</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPLB CAPS</title>
+    <link rel="icon" type="image/png" href="../icons/uplb-logo-no label.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon" />
+
+    <!-- from general folder -->
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/sidebar-menu.css">
+    <script type="text/javascript" src="../general.js"></script>
+
+    <!-- student/course-planning -->
+    <link rel="stylesheet" href="styles/viewport.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script type="text/javascript" src="app.js"
+    defer></script>
+    <script type="text/javascript" src="tcg-extract.js"></script>
+    <script type="text/javascript" src="charts.js"
+    defer></script>
+
+    <script>
+      (function (m, a, z, e) {
+        var s, t;
+        try {
+          t = m.sessionStorage.getItem('maze-us');
+        } catch (err) {}
+      
+        if (!t) {
+          t = new Date().getTime();
+          try {
+            m.sessionStorage.setItem('maze-us', t);
+          } catch (err) {}
+        }
+      
+        s = a.createElement('script');
+        s.src = z + '?apiKey=' + e;
+        s.async = true;
+        a.getElementsByTagName('head')[0].appendChild(s);
+        m.mazeUniversalSnippetApiKey = e;
+      })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', '65f6bda7-e9d3-465b-a89d-f3b2567e4c16');
+    </script>
+  </head>
+
+  <body>
+    <!-- Top Ribbon -->
+    <div id="navbar-container"></div>
+     
+    <!-- Side Bar Menu -->
+    <div id="sidebar-container"></div>       
+
+    <!-- Main Contents -->
+    <main> 
+      <div class="heading1 bg-maroon txt-16 txt-bold txt-white border-round4">COURSE PLANNING</div>
+
+      <div class="main-contents bg-white border-lightgray" style="
+      margin-bottom: 20px;">
+        <p class="txt-20 txt-semibold txt-gray1">Upload Official Grades</p>
+        <p class="txt-14 txt-gray2" style="
+        margin-bottom: 5px;
+        ">Due to prototype limitations</strong>, real-time synchronization with student records is not yet available. To use the system, please upload your True Copy of Grades (TCG).</p>
+        <input type="file" id="fileInput" />
+        <pre id="output"></pre>
+      </div>
+
+      <div class="tabs">
+        <div class="tab active" onclick="changeTab(0, 'student-info.html')">Student Dashboard</div>
+        <div class="tab inactive" onclick="changeTab(1, 'course-plan.html')">Course Recommendations</div>
+        <div class="tab inactive" onclick="changeTab(2, 'spmf.html')">Progress Monitoring</div>
+        <div class="tab inactive" onclick="changeTab(3, 'course-analytics.html')">Course Analytics</div>
+        <div class="tab inactive" onclick="changeTab(4, 'course-difficulty.html')">Course Difficulty Survey</div>
+    </div>
+
+    <!-- Tab Content (Dynamic Load) -->
+    <div class="content" id="tabContent">Loading...</div>
+    </main>
+
+    <div id="requestOverlay" class="overlay hidden">
+      <div class="overlay-content width-500">
+        <iframe id="requestIframe" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    <div id="spmfPreviewOverlay" class="overlay hidden">
+      <div class="overlay-content width-1270">
+        <iframe id="previewIframe" src="" frameboarder="0"></iframe>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+.container {
+  display:flex;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  border: 1px solid #dedede;
+}
+
+.term-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px dashed #ccc;
+  padding: 10px;
+  min-width: 115px;
+}
+
+.term-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #464651;
+  line-height: 120%;
+}
+
+.course-pill {
+  padding: 6px 12px;
+  margin: 4px 0;
+  border-radius: 999px;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Grade colors */
+.course-pill.green {
+  background-color: #c0f5dd;
+  color: #23856a;
+}
+
+.course-pill.purple {
+  background-color: #e0c6ff;
+  color: #5a4475;
+}
+
+.course-pill.red {
+  background-color: #ffe0e0;
+  color: #ff3131
+}
+
+.course-pill.gray {
+  background-color: #e3e3e3;
+  color: #343434;
+}
+
+.term-footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Optional: Flex container styles for better horizontal layout */
+#completed, #coursePlan, #notCompleted {
+  display: flex;
+}
+
+#coursePlan {
+  .course-pill {
+    background-color: #ffefca  !important;;
+    color: #e69138  !important;
+  }
+}
+
+#download-spmf-button, .request-button, #preview-spmf-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+  gap: 5px; 
+}
+
+#preview-spmf-button:hover {
+  background-color: #00563f;
+}
+
+#download-spmf-button:hover {
+  background-color: #8d1436;
+}
+
+.request-button:hover{
+  background-color: #0056b3;
+
+}
+
+.form-container {
+  width: 100%;
+  text-align: left;
+}
+
+.info-container {
+  display: flex;
+  justify-content: flex-start; /* Distributes sections evenly */
+  align-items: flex-start;
+  gap: 5px; /* Adds spacing between sections */
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.info-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+  min-width: 100px;
+  text-align: left;
+  padding: 2px 5px;
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 24px 0;
+}
+
+.badge {
+  padding-top: 0px;
+  padding-bottom: 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 8px;
+}
+
+
+/* Legend container */
+.legend-box1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff;
+  margin-left: auto;
+}
+
+.legend-box2 {
+  display: flex;
+  gap: 25px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.legend-item1 {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.legend-color1 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+/* Color classes matching your badge styles */
+.completed1 {
+  background-color: #c0f5dd; /* same green as IE 198 */
+}
+
+.ongoing1 {
+  background-color: #ffefca; /* same yellow as IE 165 */
+}
+
+.not-started1 {
+  background-color: #e3e3e3; /* same light gray */
+}
+
+.failed1 {
+  background-color: #f56565; /* red */
+}
+
+.conditional1 {
+  background-color: #d6bcfa; /* purple */
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS and JS -->
+    <link rel="stylesheet" href="../styles/general.css">
+    
+    <link rel="stylesheet" href="styles/student-info.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="app.js"
+    defer></script>
+    <script type="text/javascript" src="charts.js"
+    defer></script>
+  </head>
+  <body>
+    <main>
+      <!--perceived course difficulty-->
+      <div class="pad20-24 bg-white border-lightgray border-round4 txt-13">
+        <h1 class="txt-24 txt-semibold txt-gray1">Course Difficulty</h1>
+        <p class="txt-15 txt-regular txt-gray2" style="
+        margin-top: 10px;
+        line-height: 150%;
+        ">The <strong>Peer Reviews on Difficulty of Courses Taken (PREDICT)</strong> system offers peer-based feedback on course difficulty, supporting smarter, more balanced academic planning.</p>
+
+        <p class="txt-gray2 txt-15" style="margin-top: 20px;">Please read the following items carefully and rate the teaching effectiveness for this class according to the rating scale below:</p>
+        <div class="txt-bold txt-gray2 txt-15" style="margin-left: 20px;">
+          <p>1 = Very easy</p>
+          <p>2 = Easy</p>
+          <p>3 = Somewhat easy</p>
+          <p>4 = Moderate</p>
+          <p>5 = Somewhat difficult</p>
+          <p>6 = Difficult</p>
+          <p>7 = Very difficult</p>
+        </div>
+
+        <div class="tabs">
+          <div class="tab1 active1">Unrated courses</div>
+          <div class="tab1 inactive1">Rated courses</div>
+        </div>
+
+        <table class="course-table txt-14">
+          <thead>
+            <tr>
+              <th>Course Code</th>
+              <th>Title</th>
+              <th>Credit units</th>
+              <th>Difficulty Scale</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody class="course-list">
+            <tr class="course-info">
+              <td>ENSC 11</td>
+              <td>Statics of Rigid Bodies</td>
+              <td>3</td>
+              <td class="difficulty-scale">
+                <div class="likert-scale">
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="1">
+                    <span>1</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="2">
+                    <span>2</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="3">
+                    <span>3</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="4">
+                    <span>4</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="5">
+                    <span>5</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="6">
+                    <span>6</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="7">
+                    <span>7</span>
+                  </label>
+                </div>
+              </td>
+              <td>
+                <button class="submit-button bg-green button txt-white">Submit</button>
+              </td>
+            </tr>
+            <tr class="course-info">
+              <td>ENSC 12</td>
+              <td>Dynamics of Rigid Bodies</td>
+              <td>3</td>
+              <td class="difficulty-scale">
+                <div class="likert-scale">
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="1">
+                    <span>1</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="2">
+                    <span>2</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="3">
+                    <span>3</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="4">
+                    <span>4</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="5">
+                    <span>5</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="6">
+                    <span>6</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="7">
+                    <span>7</span>
+                  </label>
+                </div>
+              </td>
+              <td>
+                <button class="submit-button bg-green button txt-white">Submit</button>
+              </td>
+            </tr>
+            <tr class="course-info">
+              <td>ENSC 13</td>
+              <td>Strength of Materials</td>
+              <td>3</td>
+              <td class="difficulty-scale">
+                <div class="likert-scale">
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="1">
+                    <span>1</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="2">
+                    <span>2</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="3">
+                    <span>3</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="4">
+                    <span>4</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="5">
+                    <span>5</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="6">
+                    <span>6</span>
+                  </label>
+                  <label class="likert-option">
+                    <input type="radio" name="likert" value="7">
+                    <span>7</span>
+                  </label>
+                </div>
+              </td>
+              <td>
+                <button class="submit-button bg-green button txt-white">Submit</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </body>
+</html>
